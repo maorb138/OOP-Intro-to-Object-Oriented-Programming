@@ -1,0 +1,13 @@
+# default values for blocks
+default height:30 width:50 stroke:color(white) hit_points:1
+
+# block definitions
+bdef symbol:a fill:image(block_images/alien1.jpg)
+bdef symbol:b fill:image(block_images/alien2.jpg)
+bdef symbol:c fill:image(block_images/alien3.jpg)
+bdef symbol:d fill:image(block_images/alien4.jpg)
+bdef symbol:e fill:image(block_images/alien6.jpg)
+bdef symbol:h fill:image(block_images/spaceship.jpg) height:40 width:150 hit_points:3
+
+# spacers definitions
+sdef symbol:- width:30

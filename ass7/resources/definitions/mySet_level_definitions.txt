@@ -1,0 +1,80 @@
+# Level 1
+# space 
+
+START_LEVEL
+level_name:Space war
+ball_velocities:10,8 10,8 10,8 10,8 10,8 10,8 10,8
+background:image(background_images/space.jpg)
+paddle_speed:18
+paddle_width:350
+block_definitions:definitions/space_level_definition.txt
+blocks_start_x:25
+blocks_start_y:25
+row_height:50
+num_blocks:66
+START_BLOCKS
+-bbbbbbbbbbbbbb---
+-b--e-a----h------
+abcabcabcabcabc---
+-eee--------eee--
+-----h------------
+---c--abcde------
+--b---abcad--h----
+aaaaaaaaaaaaa---
+END_BLOCKS
+END_LEVEL
+
+
+# Level 2
+# two room
+
+START_LEVEL
+level_name:Two room
+ball_velocities:10,5 -10,5
+background:image(background_images/room.jpg)
+paddle_speed:18
+paddle_width:350
+block_definitions:definitions/towRoom_level_definition.txt
+blocks_start_x:95
+blocks_start_y:20
+row_height:50
+num_blocks:4
+START_BLOCKS
+------b
+-
+-
+-
+--w-w--w-w
+END_BLOCKS
+END_LEVEL
+
+# Level 3
+# Single block direct hit
+START_LEVEL
+level_name:Heart
+ball_velocities:3,6 6,3
+background:image(background_images/heart.jpg)
+paddle_speed:16
+paddle_width:160
+block_definitions:definitions/heart_level_definition.txt
+blocks_start_x:75
+blocks_start_y:50
+row_height:25
+num_blocks:107
+START_BLOCKS
+-----------------
+---g---------g---
+--grg-------grg--
+-grrrg-----grrrg-
+grrrrrg---grrrrrg
+grrrrrrg-grrrrrrg
+-grrrrrrrrrrrrrg-
+--grrrrrrrrrrrg--
+---grrrrrrrrrg---
+----grrrrrrrg----
+-----grrrrrg-----
+------grrrg------
+-------grg-------
+--------g--------
+END_BLOCKS
+END_LEVEL

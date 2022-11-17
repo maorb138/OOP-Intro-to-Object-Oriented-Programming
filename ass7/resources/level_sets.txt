@@ -1,0 +1,6 @@
+e:Easy
+definitions/easy_level_definitions.txt
+h:Hard
+definitions/hard_level_definitions.txt
+m:Fun Fun Fun
+definitions/mySet_level_definitions.txt

@@ -1,0 +1,15 @@
+# default values for blocks
+default height:50 width:50 stroke:color(black) hit_points:1
+
+# block definitions
+bdef symbol:w hit_points:2 fill:image(block_images/windows2.jpg) fill-2:image(block_images/windows1.jpg)
+bdef symbol:b fill:image(block_images/wall.jpg) hit_points:50000 height:600 width:20
+bdef symbol:y fill:color(yellow)
+bdef symbol:r fill:color(pink)
+bdef symbol:g fill:color(red)
+bdef symbol:p fill:color(pink)
+bdef symbol:c fill:color(cyan)
+bdef symbol:o fill:color(orange)
+
+# spacers definitions
+sdef symbol:- width:50

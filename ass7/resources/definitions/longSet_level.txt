@@ -1,0 +1,237 @@
+
+# Level 1
+# Single block direct hit
+
+
+START_LEVEL
+level_name:Direct Hit
+ball_velocities:0,7
+background:color(black)
+paddle_speed:10
+paddle_width:160
+block_definitions:definitions/standard_block_definitions.txt
+blocks_start_x:25
+blocks_start_y:80
+row_height:25
+num_blocks:1
+START_BLOCKS
+-------r
+END_BLOCKS
+END_LEVEL
+
+
+# Level 2
+# Wide paddle with many balls
+
+START_LEVEL
+level_name: Wide Easy
+ball_velocities:-6,5 -4,5 9,5 -15,3 12,6 3,15 3,9 9,5
+background:color(white)
+paddle_speed:15
+paddle_width:550
+block_definitions:definitions/standard_block_definitions.txt
+blocks_start_x:25
+blocks_start_y:80
+row_height:25
+num_blocks:15
+START_BLOCKS
+-
+-
+-
+-
+-
+-
+-
+rrooyygggbbppcc
+
+
+END_BLOCKS
+END_LEVEL
+
+
+
+
+
+# Level 3
+# the moon with different block definitions
+
+START_LEVEL
+level_name:Square Moon
+ball_velocities:12,7
+background:image(background_images/night.jpg)
+paddle_speed:20
+paddle_width:160
+block_definitions:definitions/moon_block_definitions.txt
+blocks_start_x:25
+blocks_start_y:80
+row_height:100
+num_blocks:4
+START_BLOCKS
+--ll--
+--ll--
+END_BLOCKS
+END_LEVEL
+
+# Level 1
+# space 
+
+START_LEVEL
+level_name:Space war
+ball_velocities:10,8 10,8 10,8 10,8 10,8 10,8 10,8
+background:image(background_images/space.jpg)
+paddle_speed:18
+paddle_width:350
+block_definitions:definitions/space_level_definition.txt
+blocks_start_x:25
+blocks_start_y:25
+row_height:50
+num_blocks:66
+START_BLOCKS
+-bbbbbbbbbbbbbb---
+-b--e-a----h------
+abcabcabcabcabc---
+-eee--------eee--
+-----h------------
+---c--abcde------
+--b---abcad--h----
+aaaaaaaaaaaaa---
+END_BLOCKS
+END_LEVEL
+
+
+# Level 2
+# two room
+
+START_LEVEL
+level_name:Two room
+ball_velocities:10,5 -10,5
+background:image(background_images/room.jpg)
+paddle_speed:18
+paddle_width:350
+block_definitions:definitions/towRoom_level_definition.txt
+blocks_start_x:95
+blocks_start_y:20
+row_height:50
+num_blocks:4
+START_BLOCKS
+------b
+-
+-
+-
+--w-w--w-w
+END_BLOCKS
+END_LEVEL
+
+# Level 3
+# Single block direct hit
+START_LEVEL
+level_name:Heart
+ball_velocities:3,6 6,3
+background:image(background_images/heart.jpg)
+paddle_speed:16
+paddle_width:160
+block_definitions:definitions/heart_level_definition.txt
+blocks_start_x:75
+blocks_start_y:50
+row_height:25
+num_blocks:107
+START_BLOCKS
+-----------------
+---g---------g---
+--grg-------grg--
+-grrrg-----grrrg-
+grrrrrg---grrrrrg
+grrrrrrg-grrrrrrg
+-grrrrrrrrrrrrrg-
+--grrrrrrrrrrrg--
+---grrrrrrrrrg---
+----grrrrrrrg----
+-----grrrrrg-----
+------grrrg------
+-------grg-------
+--------g--------
+END_BLOCKS
+END_LEVEL
+
+
+# Level 1
+# Image Background and images for blocks
+
+START_LEVEL
+level_name:Welcome to the Jungle
+ball_velocities:12,8 -4,6 -3,5 11,6
+background:image(background_images/jungle.jpg)
+paddle_speed:18
+paddle_width:160
+block_definitions:definitions/jungle_block_definitions.txt
+blocks_start_x:25
+blocks_start_y:80
+row_height:25
+num_blocks:26
+START_BLOCKS
+-
+-
+-
+-
+-lllllllllllll--
+-zzzzzzzzzzzzz--
+END_BLOCKS
+END_LEVEL
+
+# Level 2
+# Complicated pattern
+
+START_LEVEL
+level_name: Retro Arrows
+ball_velocities:4,5 6,8 7,9
+background:color(RGB(142,0,0))
+paddle_speed:15
+paddle_width:250
+block_definitions:definitions/arrows_block_definitions.txt
+blocks_start_x:25
+blocks_start_y:80
+row_height:25
+num_blocks:135
+START_BLOCKS
+-
+-
+ggggggggggggggg
+gyyyryygoobooog
+gyyrryygoobboog
+gyrrrrrgbbbbbog
+grrrrrrgbbbbbbg
+gyrrrrrgbbbbbog
+gyyrryygoobboog
+gyyyryygoobooog
+ggggggggggggggg
+
+END_BLOCKS
+END_LEVEL
+
+# Level 3
+# The good old final four level with an upgraded background
+
+START_LEVEL
+level_name: Final Four (V2)
+ball_velocities:5,3
+background:image(background_images/clouds.png)
+paddle_speed:20
+paddle_width:160
+block_definitions:definitions/standard_block_definitions.txt
+blocks_start_x:25
+blocks_start_y:80
+row_height:25
+num_blocks:105
+START_BLOCKS
+-
+-
+GGGGGGGGGGGGGGG
+rrrrrrrrrrrrrrr
+yyyyyyyyyyyyyyy
+ggggggggggggggg
+wwwwwwwwwwwwwww
+ppppppppppppppp
+ccccccccccccccc
+
+END_BLOCKS
+END_LEVEL
